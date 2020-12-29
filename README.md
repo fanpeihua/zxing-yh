@@ -1,9 +1,5 @@
-Gif 展示
+ViewfinderView属性说明
 
-![Image](GIF.gif)
-
-
-## ViewfinderView属性说明
 | 属性 | 值类型 | 默认值 | 说明 |
 | :------| :------ | :------ | :------ |
 | maskColor | color |<font color=#000000>#60000000</font>| 扫描区外遮罩的颜色 |
