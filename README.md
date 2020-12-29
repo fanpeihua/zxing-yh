@@ -36,22 +36,22 @@ Gif 展示
 ### Maven：
 ```maven
 <dependency>
-  <groupId>com.yonghui.zxing</groupId>
-  <artifactId>zxing-lite</artifactId>
-  <version>1.1.9</version>
-  <type>pom</type>
+	<groupId>com.yonghui.zxing</groupId>
+	<artifactId>lib</artifactId>
+	<version>1.0.0</version>
+	<type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```gradle
 //Android 版本
-implementation 'com.yonghui.zxing:zxing-lite:1.1.9'
+implementation 'com.yonghui.zxing:lib:1.0.0'
 ```
 ###### 如果Gradle出现compile失败的情况，可以在Project的build.gradle里面添加如下：（也可以使用上面的GitPack来complie）
 ```gradle
 allprojects {
     repositories {
-        maven { url 'https://dl.bintray.com/jenly/maven' }
+        maven { url 'https://dl.bintray.com/yonghui/zxing-yh' }
     }
 }
 ```
