@@ -55,7 +55,7 @@ public class CustomCaptureActivity extends CaptureActivity {
                 .supportVerticalCode(true)//支持扫垂直条码，建议有此需求时才使用。
                 .decodeFormats(DecodeFormatManager.QR_CODE_FORMATS)//设置只识别二维码会提升速度
                 .framingRectRatio(0.9f)//设置识别区域比例，范围建议在0.625 ~ 1.0之间。非全屏识别时才有效
-                .framingRectVerticalOffset(0)//设置识别区域垂直方向偏移量，非全屏识别时才有效
+                .framingRectVerticalOffset(20)//设置识别区域垂直方向偏移量，非全屏识别时才有效
                 .framingRectHorizontalOffset(0)//设置识别区域水平方向偏移量，非全屏识别时才有效
                 .frontLightMode(FrontLightMode.AUTO)//设置闪光灯模式
                 .tooDarkLux(45f)//设置光线太暗时，自动触发开启闪光灯的照度值
